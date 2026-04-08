@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+  <header>
+	<center><img src="https://imgs.search.brave.com/3pba_kA3XRHXXqPP6WymH_CotXG63mAy4g-NpuMElNg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cy4x/MjNyZi5jb20vNDUw/d20vZGVkZWdycGhj/L2RlZGVncnBoYzIw/MDQvZGVkZWdycGhj/MjAwNDAxMDA0LzE0/NTEzODY0Mi10cmF2/ZWwtbG9nby12ZWN0/b3ItaWNvbi1kZXNp/Z24tdGVtcGxhdGUt/dmVjdG9yLmpwZz92/ZXI9Ng" width="70" height="70" border="0" alt=""></center>
+	<h1><center>
+	<a href="home.html">home</a>
+	<a href="destination.html">destination</a>
+	<a href="travel.html">travel</a>
+	<a href="travel_tip.html">travel tip</a>
+	<a href="registration.html">registration</a>
+	<a href="login.html">login</a>
+	<a href="contact.html">contact</a></center></h1>
+  </header>
+  <hr>
+  <main>
+  <center><p><h2>explore the world</h2></p></center>
+  <center><img src="https://imgs.search.brave.com/wXZBx_TvxwDQ-N3O0_zrfM3hy0ZzfNCojZMeWiWolo4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by92/aWV3LXRyYXZlbC1p/dGVtcy1hc3NvcnRt/ZW50LXN0aWxsLWxp/ZmVfMjMtMjE0OTYx/NzY0NS5qcGc_c2Vt/dD1haXNfaHlicmlk/Jnc9NzQwJnE9ODA" width="" height="" border="0" alt="a beautifull travel destination"></center>
+  
+  <center><p>Numerous platforms offer high-quality, royalty-free travel images suitable for personal and commercial use. These collections feature diverse scenes such as exotic destinations, urban landscapes, nature adventures, and cultural moments Pexels offers more than 800,000 travel photos and videos, updated daily. The platform emphasizes high-resolution content with diverse global representation, including beaches, mountains, cities, and transportation scenes. </p></center>
+  
+  <center><h2>popular destination</h2></center>
+  <ul>
+	<li>New zeland</li>
+	<li>Paris</li>
+	<li>Bali</li>
+  </ul>
+  </main>
+  <hr>
+  <footer>
+  <center><h3>&copy; travel agency copy right</h3></center>
+  </footer>
+ </body>
+</html>
