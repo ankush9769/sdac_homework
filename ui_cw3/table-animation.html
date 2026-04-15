@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding:0;
+        }
+        body{
+            background:linear-gradient(190deg,rgb(244, 244, 122),rgb(241, 151, 166),rgb(231, 187, 105),rgb(227, 120, 120),skyblue,rgb(100, 100, 238));
+            background-size: 1200% 1200%;
+            animation: gradient 10s ease infinite;
+        }
+        @keyframes gradient {
+            0%,
+            100%{
+                 background-position: 0% 50%;
+            }
+            50%{
+                 background-position: 100%;
+            } 
+        }
+
+        .container{
+            box-shadow: 5px 5px 20px rgb(29, 29, 29);
+            max-width: 800px;
+            margin: auto;
+            margin-top: 40px;
+            border-radius: 20px;
+            padding:10px
+        }
+        table{
+            width: 100%;
+            text-align: center;
+            border-collapse: collapse;
+            padding: 10px;
+        }
+        td::before{
+            content: "🎉";
+        }
+        th::after{
+            content: "😶‍🌫️";
+        }
+        tbody tr:nth-child(even){
+            background-color: gray;
+        }
+        thead th{
+            padding: 10px;
+            background-color: bisque;
+        }
+        tbody td{
+            padding:10px;
+        }
+        tbody td:hover{
+            background-color: aqua;
+            color: black;
+            border-radius: 10px;
+            transition: transform 1s ease-out;
+            /* transform:rotateY(360deg) */
+            /* transform:scale(1.5) */
+            /* transform:translate(30px,30px); */
+            transform:perspective(80px) rotateY(360deg)
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <table>
+            <thead>
+                <th>id</th>
+                <th>name</th>
+                <th>salary</th>
+                <th>address</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>ankush</td>
+                    <td>20000</td>
+                    <td>kandivali</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>ankush</td>
+                    <td>20000</td>
+                    <td>kandivali</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>ankush</td>
+                    <td>20000</td>
+                    <td>kandivali</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>ankush</td>
+                    <td>20000</td>
+                    <td>kandivali</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>ankush</td>
+                    <td>20000</td>
+                    <td>kandivali</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+</body>
+</html>

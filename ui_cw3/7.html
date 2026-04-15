@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        navbar{
+            height: 50px;
+            background-color: red;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+            align-items: center;
+        }
+        .parent{
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-around;
+            background-color: black;
+
+        }
+        .child{
+            background-color: aqua;
+            width: 30%;
+        }
+        img{
+            width: 100%;
+        }
+        @media(max-width:680px){
+            navbar{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .parent{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <navbar>
+        <label for="">home</label>
+        <label for="">about</label>
+        <label for="">contact</label>
+    </navbar>
+    <div class="parent">
+        <div class="child">
+            <img src="https://imgs.search.brave.com/fSwEM7QTXh29PbgzD64H9mUm-IHedyLRil-Fq4pY-WU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvNTA2/ODU2NjU4L3Bob3Rv/L2JlYXV0aWZ1bC1u/YXR1cmUtYXQtbW9y/bmluZy1pbi1taXN0/eS1zcHJpbmctZm9y/ZXN0LXdpdGgtc3Vu/LmpwZz9zPTYxMng2/MTImdz0wJms9MjAm/Yz01T3lLM2RvVTBI/NE9HSHVlTjFDb2Ey/cjlkZWlXeWx5X3NK/UlNkZGdSblJVPQ" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos laboriosam libero consequatur suscipit esse vel nemo minus blanditiis tempora consequuntur?</p>
+        </div>
+        <div class="child">
+            <img src="https://imgs.search.brave.com/fSwEM7QTXh29PbgzD64H9mUm-IHedyLRil-Fq4pY-WU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvNTA2/ODU2NjU4L3Bob3Rv/L2JlYXV0aWZ1bC1u/YXR1cmUtYXQtbW9y/bmluZy1pbi1taXN0/eS1zcHJpbmctZm9y/ZXN0LXdpdGgtc3Vu/LmpwZz9zPTYxMng2/MTImdz0wJms9MjAm/Yz01T3lLM2RvVTBI/NE9HSHVlTjFDb2Ey/cjlkZWlXeWx5X3NK/UlNkZGdSblJVPQ" alt="">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos explicabo non optio minus voluptatem, mollitia voluptates distinctio doloremque aspernatur recusandae.</p>
+        </div>
+        <div class="child">
+            <img src="https://imgs.search.brave.com/fSwEM7QTXh29PbgzD64H9mUm-IHedyLRil-Fq4pY-WU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvNTA2/ODU2NjU4L3Bob3Rv/L2JlYXV0aWZ1bC1u/YXR1cmUtYXQtbW9y/bmluZy1pbi1taXN0/eS1zcHJpbmctZm9y/ZXN0LXdpdGgtc3Vu/LmpwZz9zPTYxMng2/MTImdz0wJms9MjAm/Yz01T3lLM2RvVTBI/NE9HSHVlTjFDb2Ey/cjlkZWlXeWx5X3NK/UlNkZGdSblJVPQ" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ad deserunt veniam temporibus unde eveniet aperiam, eos aliquid saepe ex!</p>
+        </div>
+    </div>
+    
+</body>
+</html>

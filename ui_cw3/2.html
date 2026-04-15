@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: red;
+        }
+        *{
+            margin:0px;
+            padding:0px;
+            font-size: xx-large
+        }
+        .parent{
+            background-color: white;
+            padding: 20px;
+            border: 1px black ;
+        }
+        .child{
+            background-color: rgb(174, 223, 13);
+            display: flex;
+            flex-direction: row;
+        }
+        .c{
+            display: flex;
+            flex-direction: row;
+        }
+        @media(max-width:600px){
+            .c{
+                display:flex;
+                flex-direction: column;
+            }
+        }
+    </style>
+
+</head>
+<body>
+        <div class="parent">
+            <div class="child">
+                <form>
+                <h3>registration</h3>
+                <div class="c">
+                    <div><label for="">name:</label></div>
+                    <div><input type="text"></div>
+                </div>    
+                <div class="c"><label for="">add:</label><input type="text"></div>
+                <div class="c"><label for="">age:</label><input type="number"></div>
+                <div class="c" ><button>submit</button></div>
+                </form>
+            </div>
+        </div>
+</body>
+</html>
