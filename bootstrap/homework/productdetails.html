@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS v5.3.8 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid px-0">
+            <nav class="navbar navbar-expand-sm navbar-dark bg-black">
+                <div class="container-fluid">
+                    <img src="data:image/webp;base64,UklGRrIJAABXRUJQVlA4IKYJAADQOwCdASqYAeoAPp1OpEylpKOiI5R4kLATiWVu4XB78bjmpG97/MP2n67/fvxnw5Jtu47JT6hvzj/4PcA/VHpQ/2X0C/uh64npm/ym/GehX0x37wZSuxj9aMocEpcI+JOTrdCQAd9hNH/S2Ds1byZvvRG9i3vIdLm3husW95Dpc28N1gXHId2Le8h0ubeG3M//+pALkRr1hHTwqO5VFlGIdLm3husW94xx/NMHmBaP+NKpUG+hvl89lROrdi3vIdLm3hgNTfq1ThQxk/yCMMBO+JN/w5Uruxb3kOlzbw22cUj5/6Y0MFzPtP7cXiUgmt2Le8h0ubeGBv7+2cCoW8uj51VBZRt4h3Yt7yHS5tv6/qQiYb6rZ7ifotxLjDzfLjZEeQ7sW95DpaS5IaT55FlMOCcsriAeDQrrMa5R9ma+I8h3Yt7xqj3Ind+IDKUezpuygK11AHr7LW8N1i3vGPJLD+/VLtxbzI4s9BxDo4wrlJfibEje2gyE7Qt69n2ubeG6xb30DRdOMzazw5Y7trjs3WZCOTWDOqBvm5xnRVNJyVquwi//5sU/Gpy5QyOUdY9Lm3husW+soWRbDB0Znaol7PJe1AdqAXiPVQR5Duxb3kOlzbxBOPm3husW95Dpc28N1i3vIcQAAP7+hjeERAANHbY8cJwkVLcRk74GcpRHxCKZ/06/evMhCzmVbE/N9KIsgpOeVOFb8ro4an0QZsJ1BHqgTrmnrX0CwxFpoM4hr42ZUnyNCUh1FdDu4JwE/hQDvXJe5uXnlEh6d+k1kqai/zGggHaiX/A8SDBU1dlcEFG805YB1REBEINmRCRvhDUHhpSNxdnbbDekXni2qrsL+aa+fki6C2mWHwRnDE5HM9TJHnehkqkwg+5LJJ/CSxXrXDF38x/dcQADAcSsFHK+l/QREJlf4X2rlIJeughfoMPA5XeTqEbjJtjlWl3uRfEA0pn0c3Fmi43sUKQJ1hTPIhmMSSWTb9PHJdqZb/wMPGKDhuTiO/dGcpux2cPHBQgSQLFyFbz9huBS7KPN074dTfk0/Un22EQoqQByW4wCVI0GlDGFhCq0Ed6rRnPU5ipt6hzYobXvggbOxUzzbwl4kBxaMBIu2E9Th3GFqZF8OOIg7BFsvFzHBYexy49sJjjoAc8aeIm0hnhOtjL2+w6f6/viVY4jehGdamhGs36p4F1TytvgIQMaEmJebaQhKI/AN1kvohtfOStdRuCjPUObeff75Vqoigx3j+blJ6Pr7tqdkDzacEp1yduhUHqKEDk6GQWFE124WJTULUWPqH3hdeC0hAR5eKiNFzefn9h8CioMAJr7UBR21EySOOfi9bMfj+kxFuFgYVtLwNIzmejuOZN0dxAdTjt7TbMJT/lje4uA2e2TGqJpXeGdFeG5zYhCwLRRaTbLHfpPCcA3/8zOJpkAuy28jgFMUZCfXT+D6Dxhdu+x6gRMeBSVY4Se7cF1vgYhc+US0qtdsmlkEEKz2qBlOX6FUX+ie6Hl1iVe5J+V/I4dAIsQOoc+oBua0ioiK5xQKEVXwWh7ba+iqa8N5YFse8GysOg0yRPf7dhzSd7Y976SDR+bEQ/s8YE5DoFRgsA8UMLczHlGiLoIl3bpwp0WtcaOwpoqX1r0d6hCRdwtlqdKtVg3R2cEXvXQFnJJ7N2u4DNBFY/w3xqVaPi9vMQB2bP8mnYADx5PJSq73kXsmQV1GJ75XNFGjzRH93nbTANkeqQgm47Vp8Uq66I5j+FoAoyCWV+egd3N0T/+LGke9MPxllQCqPO1vU60ljMUthu+pB1A//4w3n15IUCPVamyfFgvFUDBbrsRQwWfcyuKBDnPLnKyuuM6kGcA8Rj/61kDuYf7WksLEYXaLtU3P9H7uMpmi/RcyGGbLk0bVIuGxPktCK7uS7C4dXtOEA5DFmD9geGRwujirNYNbAiNhUI2FLF5LXwVxdDOYkfp1NY9CSAyZUmApLYLt2SJrQb3W6W8Q1ji8LoedICtSySotkcLrmjIQNUSHy6PWI4jvVVuMhCeyNsXDsocSlXVqeLKL0wQEvWGgZF7t5TwD03P7+TW5oCIlvtO+b06EeYRL73DeBeerHhMRtwam1zlDL0XFQp6kiz9rJkX2rBs5RKoW2elpEOrNmQ8m8Qf4WrbJlrun5o6XdKnf/ckCwNfFaBubvnoPO15BJvOAh4/v24WDFQb3KIgQBSHGEsmNOVivdpZsJ2q3+9u5swfCfTgWIhnw/qJIYmw0BiXNo1dZn9Rd/UA/r/u1cF1hcSAD6v7ThnpHTavrtbBiuk/dlmwa8Cu5yCi12HMRLcuXqg/NRQXKecD18XB1g/TgbKX2NbwpYeb9wrlow+uKLu8G71xljXobxLiPuRJGolchsmTS/bxtGy1OCS9/WAcefHb66QrpPuuyFDP5/WQUaMi8odYbrs9YE1GmN2mEh6ybokdBzM1+HbKZo+wX25BoPQyQPTH3ThUUWvz5GYf9hT6WkAEmT8QRdaHEn2LkD95BYl1FzBZtiFzrWnjHcxuw5j5U7As78dfIA/qS8xSITE07Suy55LJ2lFI0ivC9H1Ss4h70ruWwd8ObY3BDyM9WIkksEqLfKamBaQ3Nx52J16PfM9L6LWLGHUSxAbfgxhyRdIaoieFipxVrdlTNmFj/Sjb3k1IxxlY/2p9b70ncmyQBTMqPNjuXM8HNVUuxoF8IPHhWsP5M391fhxZAPXUlNkvnB4o6g6lyomgoHXtSVwkp1XO5O4jd5NxZrBRJ+JPN1haXlVqJBtJZt1mJDl4OBcpwiHAHt9Rqb5waNwC/qU8DAKdPW2cIrrf6iKEL5JIZMx3jouepKgzVzmWynWGuUL/Y8yuUdUWRR3d5inxqKKE/ny7PZebgiuJfE8UaBj494N+DUPqxf9M/ABQwQmrx7wgnJWVQUOTsTCvJdktdjvK3SPrB8pp01fPHddFokbr6Z6Kt1sRWTLGDORAB38FNeSN+x8x+qF9HEdk9CH5U+3Dn2ZgL8rqeGn6cJJXdza2nmsY7+eDoD+SsfK+SVWqbFtyqOIWz7YukuEcSIHoZ+wb/mYJMeNHzT2hnQAMLiUdC7DGkOrbX1QjFT66FFYGuwQx7MbozHASDtIgV6h6jEMWM+eVonn5WEQ3qLaM6x6eLg/Wzd6//NPUzox0GfJUHCc7VQ4qo8uf1RCN6eM4w3qxp9uPn7l5Ne9uCilPFkp26ZjQ8/dygVAG36NqRwOT2OmVI/QlWY/7eOhuvxKHRxBaF/mjaQJEbDm03fDwNsGBYsEU4Cdel1AAAAAA"
+                        class="img-fluid rounded-circle" alt="" height="70px" width="70px" />
+
+                    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavId">
+                        <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="home.html" aria-current="page">Home <span
+                                        class="visually-hidden">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About Us</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact Us</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="product.html">Products</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="productdetails.html">product details</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex my-2 my-lg-0">
+                            <a name="" id="" class="btn btn-warning" href="register.html" role="button">Register</a>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <center>
+            <h2>product details</h2>
+        </center>
+        <div class="container">
+            <div class="row justify-content-center align-items-center g-2">
+                <div class="col-4"><img
+                        src="https://tse1.mm.bing.net/th/id/OIP.P_bXg0BvKQdBO0Yqf7pM0AAAAA?w=300&h=227&rs=1&pid=ImgDetMain&o=7&rm=3"
+                        class="img-fluid rounded-top" alt="" />
+                </div>
+                <div class="col">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis omnis fugiat laudantium
+                        amet totam eligendi voluptas odio, aperiam architecto distinctio. Tempora facere et nisi ducimus
+                        quaerat in fugit modi reiciendis sunt molestiae natus veniam, ullam ipsa nam impedit aliquid aut
+                        rerum, cum minima illum reprehenderit ad sint. Quae porro necessitatibus, impedit provident
+                        cumque tenetur mollitia nulla quas earum adipisci consectetur officia explicabo odit id harum
+                        est quidem facere nobis fugiat rem ipsum, ea pariatur aliquid error. Ipsum magni, aspernatur
+                        possimus unde culpa excepturi tempora numquam, velit nobis accusamus maxime nam cumque error
+                        saepe consectetur quod sint optio. Velit, atque repellendus?</p>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center g-2">
+                <div class="col">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis omnis fugiat laudantium
+                        amet totam eligendi voluptas odio, aperiam architecto distinctio. Tempora facere et nisi ducimus
+                        quaerat in fugit modi reiciendis sunt molestiae natus veniam, ullam ipsa nam impedit aliquid aut
+                        rerum, cum minima illum reprehenderit ad sint. Quae porro necessitatibus, impedit provident
+                        cumque tenetur mollitia nulla quas earum adipisci consectetur officia explicabo odit id harum
+                        est quidem facere nobis fugiat rem ipsum, ea pariatur aliquid error. Ipsum magni, aspernatur
+                        possimus unde culpa excepturi tempora numquam, velit nobis accusamus maxime nam cumque error
+                        saepe consectetur quod sint optio. Velit, atque repellendus?</p>
+                </div>
+                <div class="col-4"><img
+                        src="https://www.lowyat.net/wp-content/uploads/2023/01/MSI-Cyborg-15-1.jpg"
+                        class="img-fluid rounded-top" alt="" />
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center g-2">
+                <div class="col-4"><img
+                        src="https://static.digit.in/default/best-mobile-gaming-accessories-under-2k-4-567b9d1056.jpeg"
+                        class="img-fluid rounded-top" alt="" />
+                </div>
+                <div class="col">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis omnis fugiat laudantium
+                        amet totam eligendi voluptas odio, aperiam architecto distinctio. Tempora facere et nisi ducimus
+                        quaerat in fugit modi reiciendis sunt molestiae natus veniam, ullam ipsa nam impedit aliquid aut
+                        rerum, cum minima illum reprehenderit ad sint. Quae porro necessitatibus, impedit provident
+                        cumque tenetur mollitia nulla quas earum adipisci consectetur officia explicabo odit id harum
+                        est quidem facere nobis fugiat rem ipsum, ea pariatur aliquid error. Ipsum magni, aspernatur
+                        possimus unde culpa excepturi tempora numquam, velit nobis accusamus maxime nam cumque error
+                        saepe consectetur quod sint optio. Velit, atque repellendus?</p>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center g-2">
+                <div class="col">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis omnis fugiat laudantium
+                        amet totam eligendi voluptas odio, aperiam architecto distinctio. Tempora facere et nisi ducimus
+                        quaerat in fugit modi reiciendis sunt molestiae natus veniam, ullam ipsa nam impedit aliquid aut
+                        rerum, cum minima illum reprehenderit ad sint. Quae porro necessitatibus, impedit provident
+                        cumque tenetur mollitia nulla quas earum adipisci consectetur officia explicabo odit id harum
+                        est quidem facere nobis fugiat rem ipsum, ea pariatur aliquid error. Ipsum magni, aspernatur
+                        possimus unde culpa excepturi tempora numquam, velit nobis accusamus maxime nam cumque error
+                        saepe consectetur quod sint optio. Velit, atque repellendus?</p>
+                </div>
+                <div class="col-4"><img
+                        src="https://img.freepik.com/premium-photo/bronze-dumbbell-3d-illustration-3d-render_461160-10824.jpg"
+                        class="img-fluid rounded-top" alt="" />
+                </div>
+            </div>
+
+
+
+        </div>
+
+        </div>
+        <div
+            class="container text-center"
+        >
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/bWlgfsU9JJk?si=JqXQRAeAdrD7uInw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        
+
+    </main>
+    <footer>
+        <div class="container-fluid text-center bg-black py-4 px-0 text-light">
+            &copy; All Rights Reserved by SDAC
+        </div>
+    </footer>
+    <!-- Bootstrap JavaScript Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
