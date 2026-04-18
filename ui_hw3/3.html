@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @media (min-width: 760px) {
+            p{
+                font-size:20px
+            }
+        }
+        @media (max-width: 480px) {
+            p{
+                font-size:12px
+            }
+        }
+        @media (min-width: 481px) and (max-width: 759px) {
+            p{
+                font-size:16px
+            }
+        }
+
+        .container{
+            max-width: 200px;
+            margin: auto;
+            display: flex;
+            
+        }
+        .child{
+            height: 100px;
+            width: 100px;
+            background-color: skyblue;
+            border: 2px black solid;
+        }
+        @media (max-width: 600px) {
+            .container{
+                flex-direction: column;
+                max-width: 100px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. At quo doloribus est, tenetur molestiae sapiente dolore sequi omnis consequatur consectetur corrupti explicabo. Incidunt sequi, molestias possimus maxime ab saepe rerum quo voluptates a at atque magnam impedit, maiores doloremque aliquam accusantium. Cupiditate ut, commodi aliquid explicabo consectetur rem assumenda ducimus amet unde eum ullam repudiandae illum inventore, voluptatem vitae similique velit eius quisquam. Quam, repudiandae doloribus! Blanditiis ipsum hic tempore nisi libero qui. Minima dolorum quasi asperiores suscipit harum odit magni labore aut culpa deserunt soluta explicabo fugiat, at et repudiandae nemo necessitatibus repellat corporis architecto laboriosam unde? Quae voluptatibus perspiciatis nihil soluta repellat aliquam, id, dolorem, sunt commodi facilis atque totam voluptatem? Voluptatum quasi recusandae repudiandae a corrupti, voluptatibus alias consequuntur vel perspiciatis, commodi veniam debitis. Debitis, fugit unde facere quisquam eveniet sint aspernatur perspiciatis, est natus molestiae magni nesciunt quasi id suscipit aut placeat laudantium eos ut dicta voluptas alias vitae veritatis exercitationem iusto? Laudantium quasi velit iste sit, aspernatur illum pariatur id nesciunt consequuntur ducimus voluptates nulla facilis neque natus? Fugiat illo nobis ipsum asperiores in ratione exercitationem labore voluptas cum. Porro, perspiciatis. Impedit facilis fuga est perspiciatis consectetur? Voluptatum atque minus debitis, numquam distinctio sint perferendis.
+        </p>
+    </div>
+
+    <div class="container">
+        <div class="child"></div>
+        <div class="child"></div>
+    </div>
+</body>
+</html>

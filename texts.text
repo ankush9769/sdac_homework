@@ -1,0 +1,149 @@
+1. BS5 
+2 Inside the header 
+	1. bs5-navbar-default
+		1- Remove the dropdown  - li 
+		2. Remove input (of search)	
+		3. Remove text Navbar - replace with Img
+			bs5-image-default 
+			give path to src 
+			To make it circle -- rounded-circle 
+		4. Make your background black by 
+			navbar-dark bg-black 
+		5. Add links 
+			Copy the li of link and paste 2 times 
+			Rename each to About , Contact, Product 
+			Give href path to each page 
+			Add nav-link  active to each respective pages 
+		6. Rename the search button -- Register
+3. For FOOTER 
+&copy; All Rights reserved 
+inside footer tag -
+class="bg-black text-light py-4"
+(fixed bottom ) - only for small pages 
+
+4. CAROUSEL 
+
+		1. Add container 
+			bs5-con 
+		2. Add carousel 
+			bs5-carousel-default 
+		3. Copy image address from google and paste it inside src of the 3 images 
+
+6. SERVICES 
+	1.use h1 to give heading 
+	class="text-center"
+	2. Create a container
+		bs5-con
+	3. Create a row 
+		bs5-grid-row 
+	4. By default 3 column will be generated 
+	5 Inside the text column add card 
+		bs5-card-default 
+	6. Paste the image address in the src 
+	7. Give a heading and also text to it 
+	8. To add a button 
+		bs5-button-a
+		Rename the button Show More..
+	9. Give path to the anchor button 	
+		redirect it to Product.html 
+
+
+ABOUT US 
+
+1. Give heading
+H2 - text-center 
+About us
+2. bs5-container 
+3. bs5-grid-row
+4. Delete one column 
+5. Inside first column add img
+		bs5-image-default
+		give path to the image
+6. Inside second column give text 
+		lorem50
+7. To resize column 
+	in 1st col write   col-4
+	in 2nd col write col-8 
+	and vice versa for remaining rows 
+
+8. Video 
+add a container 
+bs5-con 
+copy a embed code from youtube 
+Paste inside the container 
+then text-center my-4
+				
+
+PRODUCTS 
+
+1. body background black 	
+ class="bg-black"
+2. bs5-container
+3.bs5-grid-row
+4. It creates 3 columns , i need 4 , so copy paste one extra 
+5. Then inside column 
+	1.bs5-card-default 
+	2. Add image to the card 
+	3. remove h4 and p tag 
+	4, Add button 
+		bs5-button-a
+		text-center in container
+	5. To make card black
+		inside class="card bg-black"
+	6. To make image round 
+		inside  rounded-circle
+
+	7. Add 2 more rows 
+
+CONTACT US 
+
+1. heading 
+	h2 - Company Details 
+	
+2.bs5-con
+3.bs5-table-default
+	There are 3 columns - Remove 1 column from each row 
+4. Add data according to need 
+5. Can change background colour by adding danger , dark etc.. 
+6. For border -- table-bordered
+7. For Striped - table-striped 
+8. For individual row colour  class="table-danger"
+9. For making the table small 
+	Inside container write col-4 (or any value )
+
+10. Form 
+	1. H2 - Query Form - text-center
+	2. bs5-con
+	3. Form tag of html  <form>
+	4. bs5-form-floating  - Name
+	5. bs5-form-floating  - Email  change type to email 
+	6. bs5-form-floating  - Query 
+	7. bs5-button-default  -- change type to submit 
+	8 . Reduce the size of the form by writing col-4 in container 
+11. Map 
+	1. H2 - Come find us here 
+	2. bs5-con 
+	3. Paste the map path 
+	4. text-center 
+
+
+REGISTER PAGE 
+
+1. H1 - register with us  - text-center text-primary 
+2. Background colour black - bg-black
+3. bs5-container
+4. <form>
+5. bs5-form-floating - Name
+6. bs5-form-floating - Phone type="number"
+7. bs5-form-floating - Email type="email"
+8. bs5-form-floating - Age type="number"
+9. bs5-form-floating - UserName 
+10. bs5-form-floating - Password type="password"
+11. bs5-form-submit (will create a submit button )
+12. To make form small
+	inside container col-6
+	To make form blue 
+		inside container bg-primary p-4 my-4
+13. Redirect the form to login page 
+	inside action tag of the form 
+	add  login.html

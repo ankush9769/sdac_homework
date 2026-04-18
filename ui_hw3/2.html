@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding:0px;
+            font-size: x-large;
+            font-weight: 400;
+
+        }
+        body{
+            background-image: url("https://media.istockphoto.com/id/1480915978/photo/modern-simple-light-blue-and-white-abstract-graphic-design-banner-pattern-background-template.jpg?s=170667a&w=0&k=20&c=tGFGfdMIFb-DhXaJE8nV9-FP3LBEiMZ4F2USRJUL6oo=");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        button,input{
+            border-radius: 6px;
+        }
+        div{
+            padding: 10px;
+            max-width:500px;
+            margin: auto;
+            box-shadow: 7px 7px 10px black;
+            margin-top: 160px;
+            border-radius: 10px;
+            text-transform: uppercase;
+        }
+        form{
+            width: 100%;
+            cursor: pointer;
+        }
+        .btn{
+            padding: 10px;
+            background-color: skyblue;
+        }
+        .btn:hover{
+            background-color: green;
+            color:white
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form action="./1.html">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <br><br>
+            <label for="password">password</label>
+            <input type="password">
+            <br><br>
+            <label for="confirmpass">confirm password</label>
+            <input type="password">
+            <br><br>
+            <label for="age">age</label>
+            <input type="number">
+            <br><br>
+            <label for="course">course</label>
+            <input type="text">
+            <br><br>
+            <input type="submit" value="register" class="btn">
+        </form>
+    </div>
+    
+</body>
+</html>
